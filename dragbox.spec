@@ -8,12 +8,14 @@ Group:		Applications
 Source0:	http://www.student.lu.se/~cif04usv/publicfiles/%{name}_%{version}.tar.gz
 # Source0-md5:	8727bb39c011ed952874365d275ab5fe
 URL:		http://www.student.lu.se/~cif04usv/wiki/dragbox.html
+BuildRequires:	pkgconfig
 BuildRequires:	python-dbus
 BuildRequires:	python-gnome-devel
 BuildRequires:	python-gnome-ui
 BuildRequires:	python-gnome-vfs
-BuildRequires:	python-pygtk-devel
-BuildRequires:	python-pygtk-glade
+BuildRequires:	python-pygtk-devel >= 2:2.6
+BuildRequires:	python-pygtk-glade >= 2:2.6
+BuildRequires:	rpm-pythonprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

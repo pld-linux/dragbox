@@ -1,5 +1,5 @@
 Summary:	Drag and drop files mentioned in the shell
-Summary(pl):	Przeci±ganie i upuszczanie plików podanych z pow³oki
+Summary(pl.UTF-8):   PrzeciÄ…ganie i upuszczanie plikÃ³w podanych z powÅ‚oki
 Name:		dragbox
 Version:	0.2.3
 Release:	1
@@ -31,19 +31,19 @@ to dragbox, or a list of files using xargs.
 Clicking an item copies it to the clipboard. Right-clicking opens a
 context menu with access to the preferences dialog.
 
-%description -l pl
-Dragbox to narzêdzie do ³±czenia linii poleceñ ze ¶rodowiskiem
-graficznym. Wywo³uje znik±d uchwyt przy zarz±dzaniu plików lub innych
-informacji z pow³oki, wspomagaj±c pracê.
+%description -l pl.UTF-8
+Dragbox to narzÄ™dzie do Å‚Ä…czenia linii poleceÅ„ ze Å›rodowiskiem
+graficznym. WywoÅ‚uje znikÄ…d uchwyt przy zarzÄ…dzaniu plikÃ³w lub innych
+informacji z powÅ‚oki, wspomagajÄ…c pracÄ™.
 
-Dragbox przyjmuje zarówno przeci±gniêcia jak i upuszczenia od chwili
-uruchomienia i mo¿e wypisaæ przeci±gniête elementy na standardowym
-wyj¶ciu. Mo¿na tak¿e przekazaæ do dragboksa tekst potokiem lub listê
-plików przy u¿yciu xargs.
+Dragbox przyjmuje zarÃ³wno przeciÄ…gniÄ™cia jak i upuszczenia od chwili
+uruchomienia i moÅ¼e wypisaÄ‡ przeciÄ…gniÄ™te elementy na standardowym
+wyjÅ›ciu. MoÅ¼na takÅ¼e przekazaÄ‡ do dragboksa tekst potokiem lub listÄ™
+plikÃ³w przy uÅ¼yciu xargs.
 
-Klikniêcie na elemencie kopiuje go do schowka. Klikniêcie prawym
-przyciskiem otwiera menu kontekstowe z dostêpem do okna dialogowego
-ustawieñ.
+KlikniÄ™cie na elemencie kopiuje go do schowka. KlikniÄ™cie prawym
+przyciskiem otwiera menu kontekstowe z dostÄ™pem do okna dialogowego
+ustawieÅ„.
 
 %prep
 %setup -q

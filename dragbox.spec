@@ -1,5 +1,5 @@
 Summary:	Drag and drop files mentioned in the shell
-Summary(pl.UTF-8):   Przeciąganie i upuszczanie plików podanych z powłoki
+Summary(pl.UTF-8):	Przeciąganie i upuszczanie plików podanych z powłoki
 Name:		dragbox
 Version:	0.2.3
 Release:	1
